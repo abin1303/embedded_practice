@@ -1,6 +1,6 @@
 # Embedded Practice Repository
 
-📌 임베디드 교육 과정 중 진행한 실습 코드 모음
+📌 Intel Edge AI SW 아카데미 교육 과정 중 진행한 실습 코드 모음
 
 ## 📂 Directory Structure
 - `stm32/`
