@@ -1,0 +1,76 @@
+# ===== STM32 common build artifacts =====
+# 오브젝트/라이브러리/맵/바이너리
+*.o
+*.obj
+*.a
+*.lib
+*.map
+*.lst
+*.lss
+*.list
+*.d
+*.su
+
+# 펌웨어 이미지/실행 파일
+*.elf
+*.hex
+*.bin
+*.axf
+*.out
+
+# 중간/로그
+*.log
+
+# ===== STM32CubeIDE / Eclipse 계열 =====
+# 기본 빌드 폴더
+Debug/
+Release/
+.build*/
+.cproject
+.project
+.settings/
+.metadata/
+# 런치 설정(개인PC 의존)
+*.launch
+
+# CubeMX 메타 (설정 파일 *.ioc은 보존!)
+.mxproject
+
+# ===== Keil uVision (MDK-ARM) =====
+# 빌드 산출물
+Objects/
+Listings/
+# 사용자별 옵션 파일(프로젝트 파일 *.uvprojx은 보존)
+*.uvoptx
+*.uvguix.*
+
+# ===== IAR EWARM =====
+# 빌드 산출물
+Debug/
+Release/
+settings/
+Obj/
+Lst/
+# (IAR 프로젝트 파일 *.ewp, *.eww 는 보존 권장)
+
+# ===== Makefile / CMake 빌드 =====
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CTestTestfile.cmake
+cmake_install.cmake
+Makefile
+
+# ===== IDE 편의 폴더 =====
+.vscode/
+.idea/
+*.code-workspace
+
+# ===== OS 잡파일 =====
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
